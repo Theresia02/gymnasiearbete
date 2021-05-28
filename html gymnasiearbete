@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css.css">   
+</head>
+<body>
+
+<style>
+body {
+  background-image: url('wp.jpg');   
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<ul>
+  <li><a class="active" href="#home">Hem</a></li>
+  <li><a href="#news">Nyheter</a></li>
+  <li><a href="#contact">Kontakta mig</a></li>
+</ul>
+
+
+ <br>
+ 
+ 
+ 
+<div class="header">
+  <h1>Skriv vad som</h1>
+  <p>bla bla bla</p>
+</div>
+
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+	
+      <h2>Välkomen till min hemsida om...</h2>
+      <h1>Helig birma</h1>
+	  
+	  <img src="Helig birma.jpg" alt="Bild1" style="height:800px;">
+      <div style="height:50px;">Helig birma på bilden</div>
+	  
+      <h1>Humör</h1>
+	  <div class="box" style="height:200px;"><p>Helig birma är en lugn och vänlig kattras. 
+	  Den kan vara ganska sluten och brukar fästa sig vid en person. 
+	  En del birmor kan bli lite avundsjuka om deras husse eller matte inte ger dem tillräckligt med uppmärksamhet. 
+	  Även om de är territoriella, är de inte aggressiva.</p></div>
+      
+    </div>
+  </div>
+  
+  
+  
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Om mig</h2>
+      <img src="lol.jpg" alt="Bild1";>
+      <p>Deta är bara en tutorial på hur man gör en hemsida</p>
+    </div>
+	
+	
+	
+    <div class="card">
+      <h3>Följ mig</h3>
+	  <img src="wp2.jpg" alt="Bild1";>
+      <p>"här kan du lägga till länkar till sociala medier"</p>
+    </div>
+	
+	
+	
+  </div>
+</div>
+
+<div class="footer">
+  <h2>sidan skapad av Theresia </h2>
+</div>
+ 
+
+</body>
+</html>
