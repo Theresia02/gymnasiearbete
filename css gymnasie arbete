@@ -1,0 +1,115 @@
+
+/*början på navbar*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+body {
+  font-size: 28px; 
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: aqua;
+}
+
+
+
+
+/*slut på navbar*/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Rubrik */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #DCFFFB;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+/* vänster column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* höger column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: none;
+  padding-left: 20px;
+}
+
+/* en liten text box */
+.box {
+  background-color: #333;
+  color:white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* skapar en liten kort ruta */
+.card {
+  background-color: #DCFFFB;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* rensar float efeter en column */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* slutet av sidan här kan du skriva vad du vill. */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #DCFFFB;
+  margin-top: 20px;
+}
+
+  }
+}
+
+
